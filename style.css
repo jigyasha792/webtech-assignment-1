@@ -1,12 +1,25 @@
 a {
                 padding: 10;
                 color: black;
-                background-color: olivedrab;
+                background-color: rgb(183, 177, 157);
  }
- a :hover{
+#navbar :hover{
 background-color: bisque;
- color: aliceblue;
+ color: rgb(5, 64, 114);
 }
-logo, navbar {
+#logo, #navbar {
+    display: inline;
+}
+
+body {
+    background-color: palevioletred;
+}
+#logo {
+    float: left;
+}
+#navbar {
+    float: right;
+    font-size: xx-large;
+    padding: 200;
     
 }
