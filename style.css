@@ -90,5 +90,35 @@ button {
 button:hover {
   background-color: #45a049;
 }
+#box1 {
+  background-color: rgb(255, 211, 211);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid #000;  /* visible border */
+  border-radius: 5px;       /* optional rounded corners */
+  margin-bottom: 20px;
+}
+
+#bottomrow {
+  display: flex;
+  gap: 10px;
+}
+
+#box2, #box3, #box4 {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid #000;   /* visible border for bottom boxes */
+  border-radius: 5px;        /* optional rounded corners */
+}
+
+#box2 { background-color: rgb(174, 115, 115); flex: 1; }
+#box3 { background-color: rgb(118, 71, 71); flex: 1; }
+#box4 { background-color: rgb(240, 116, 116); flex: 1; }
 
 
