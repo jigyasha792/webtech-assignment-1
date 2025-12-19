@@ -1,28 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+}
+
 body {
   margin: 0;
   background-color: palevioletred;
 }
 
-/* Navbar Container */
-#navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 20px;
-  background: #fff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-  position: sticky;
-  top: 0;
-  margin: 0;
-  min-height: auto;
-  height: 60px;
-  
-}
 
 /* Logo */
 #logo {
- height: 0px;
+ padding-top: 30px;
  width: auto;
+ height: 5px;
+ display: block;
 
 }
 
@@ -30,11 +32,10 @@ body {
 #navbar a {
   text-decoration: none;
   color: black;
-  font-size: 18px;
-  padding: 0;
-  border-radius: 2px;
+  font-size: 28px;
+  padding: 30px 50px;
   transition: 0.3s;
-  line-height: 1;
+  overflow: hidden;
 }
 
 /* Hover Effect */
@@ -44,9 +45,50 @@ body {
 }
 .nav-links {
     display: flex;
-    gap: 25px;
-    margin: 0;
-  line-height: 1;
-  padding: 0;
+    gap: 15px;
+   height: 5px;
 }
+#form {
+  display:list-item ;
+}
+/* Basic styling */
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+/* Each input group takes a full line */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column; /* Label on top, input below */
+}
+
+/* Input fields styling */
+input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
 
