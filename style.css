@@ -1,25 +1,52 @@
-a {
-                padding: 10;
-                color: black;
-                background-color: rgb(183, 177, 157);
- }
-#navbar :hover{
-background-color: bisque;
- color: rgb(5, 64, 114);
-}
-#logo, #navbar {
-    display: inline;
+body {
+  margin: 0;
+  background-color: palevioletred;
 }
 
-body {
-    background-color: palevioletred;
-}
-#logo {
-    float: left;
-}
+/* Navbar Container */
 #navbar {
-    float: right;
-    font-size: xx-large;
-    padding: 200;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 20px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  margin: 0;
+  min-height: auto;
+  height: 60px;
+  
 }
+
+/* Logo */
+#logo {
+ height: 0px;
+ width: auto;
+
+}
+
+/* Navigation Links */
+#navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  padding: 0;
+  border-radius: 2px;
+  transition: 0.3s;
+  line-height: 1;
+}
+
+/* Hover Effect */
+#navbar a:hover {
+  background-color: bisque;
+  color: rgb(5, 64, 114);
+}
+.nav-links {
+    display: flex;
+    gap: 25px;
+    margin: 0;
+  line-height: 1;
+  padding: 0;
+}
+
