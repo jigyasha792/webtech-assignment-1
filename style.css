@@ -8,7 +8,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
-  background: #fff;
+  background:#d48ab8;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   position: sticky;
 }
@@ -121,4 +121,11 @@ button:hover {
 #box3 { background-color: rgb(118, 71, 71); flex: 1; }
 #box4 { background-color: rgb(240, 116, 116); flex: 1; }
 
-
+.products {
+  display: flex;
+  background-color: #d48ab8;
+  gap: 20px;
+  margin-top: 30px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
